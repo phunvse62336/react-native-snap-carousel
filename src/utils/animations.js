@@ -1,6 +1,6 @@
 import { Platform } from 'react-native';
 
-const IS_ANDROID = Platform.OS === 'android';
+const IS_ANDROID = false;
 
 // Get scroll interpolator's input range from an array of slide indexes
 // Indexes are relative to the current active slide (index 0)
